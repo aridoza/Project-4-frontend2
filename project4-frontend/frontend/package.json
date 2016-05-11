@@ -4,8 +4,8 @@
   "description": "nyc health battle app with hot reload",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p",
-    "start": "npm start"
+    "start-dev": "nodemon",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
